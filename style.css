@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    align-items: center;
+}
+
+h1{
+    color: darkred;
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#one{
+    background: chartreuse;
+    transition-timing-function: linear;
+}
+#two{
+    background: yellow;
+    transition-timing-function: ease-in;
+}
+#three{
+    background: darkblue;
+    transition-timing-function: ease-in;
+}
+#four{
+    background: darkred;
+    transition-timing-function: ease-out;
+}
+#five{
+    background: darkturquoise;
+    transition-timing-function: ease-in-out;
+}
+
+.xi{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    transition: width 3s;
+}
+div:hover{
+    width: 350px;
+}
